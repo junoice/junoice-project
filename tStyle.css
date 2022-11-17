@@ -1,0 +1,51 @@
+.All_container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 350px;
+
+}
+.container1{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start; 
+    margin: 30px;
+}
+.hello{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    font-size: medium;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.bye{
+        border: 1px solid green;
+        background-color: green;
+        color: white;
+        font-size: medium;
+        padding: 20px;
+}
+.container2{
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    margin: 10px
+}
+.first{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    font-size: medium;
+    padding: 30px;
+    margin: 20px;
+}
+.second{
+    border: 1px solid green;
+        background-color: green;
+        color: white;
+        font-size: medium;
+        padding: 30px;
+}
